@@ -42,8 +42,8 @@ public:
     QTabWidget *tabWindow;
     QWidget *tabCam;
     QLabel *labelOri;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
+    QPushButton *startButton;
+    QPushButton *stopButton;
     QWidget *layoutWidget;
     QVBoxLayout *verticalLayout_10;
     QComboBox *warnaSelector;
@@ -307,14 +307,14 @@ public:
         labelOri->setMinimumSize(QSize(480, 360));
         labelOri->setBaseSize(QSize(480, 360));
         labelOri->setFrameShape(QFrame::Box);
-        pushButton = new QPushButton(tabCam);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setGeometry(QRect(60, 500, 200, 23));
-        pushButton->setMinimumSize(QSize(200, 0));
-        pushButton_2 = new QPushButton(tabCam);
-        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
-        pushButton_2->setGeometry(QRect(280, 500, 200, 23));
-        pushButton_2->setMinimumSize(QSize(200, 0));
+        startButton = new QPushButton(tabCam);
+        startButton->setObjectName(QStringLiteral("startButton"));
+        startButton->setGeometry(QRect(60, 500, 200, 23));
+        startButton->setMinimumSize(QSize(200, 0));
+        stopButton = new QPushButton(tabCam);
+        stopButton->setObjectName(QStringLiteral("stopButton"));
+        stopButton->setGeometry(QRect(280, 500, 200, 23));
+        stopButton->setMinimumSize(QSize(200, 0));
         layoutWidget = new QWidget(tabCam);
         layoutWidget->setObjectName(QStringLiteral("layoutWidget"));
         layoutWidget->setGeometry(QRect(540, 0, 502, 748));
@@ -1782,8 +1782,8 @@ public:
         tabWindow->addTab(tabCam, QString());
         layoutWidget->raise();
         labelOri->raise();
-        pushButton->raise();
-        pushButton_2->raise();
+        startButton->raise();
+        stopButton->raise();
         tab_2 = new QWidget();
         tab_2->setObjectName(QStringLiteral("tab_2"));
         tabWindow->addTab(tab_2, QString());
@@ -1811,7 +1811,7 @@ public:
         retranslateUi(DECONBOTION2017Class);
 
         tabWindow->setCurrentIndex(0);
-        stackedWidget->setCurrentIndex(4);
+        stackedWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(DECONBOTION2017Class);
@@ -1824,8 +1824,8 @@ public:
         actionSave->setText(QApplication::translate("DECONBOTION2017Class", "Save", Q_NULLPTR));
         actionSave_As->setText(QApplication::translate("DECONBOTION2017Class", "Save As.", Q_NULLPTR));
         labelOri->setText(QString());
-        pushButton->setText(QApplication::translate("DECONBOTION2017Class", "Start Camera", Q_NULLPTR));
-        pushButton_2->setText(QApplication::translate("DECONBOTION2017Class", "Stop Camera", Q_NULLPTR));
+        startButton->setText(QApplication::translate("DECONBOTION2017Class", "Start Camera", Q_NULLPTR));
+        stopButton->setText(QApplication::translate("DECONBOTION2017Class", "Stop Camera", Q_NULLPTR));
         warnaSelector->clear();
         warnaSelector->insertItems(0, QStringList()
          << QApplication::translate("DECONBOTION2017Class", "Warna 1", Q_NULLPTR)

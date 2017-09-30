@@ -82,7 +82,7 @@
        <string/>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton">
+     <widget class="QPushButton" name="startButton">
       <property name="geometry">
        <rect>
         <x>60</x>
@@ -101,7 +101,7 @@
        <string>Start Camera</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="pushButton_2">
+     <widget class="QPushButton" name="stopButton">
       <property name="geometry">
        <rect>
         <x>280</x>
@@ -162,7 +162,7 @@
        <item>
         <widget class="QStackedWidget" name="stackedWidget">
          <property name="currentIndex">
-          <number>4</number>
+          <number>0</number>
          </property>
          <widget class="QWidget" name="warna1">
           <property name="minimumSize">
@@ -2616,8 +2616,8 @@
      </widget>
      <zorder>layoutWidget</zorder>
      <zorder>labelOri</zorder>
-     <zorder>pushButton</zorder>
-     <zorder>pushButton_2</zorder>
+     <zorder>startButton</zorder>
+     <zorder>stopButton</zorder>
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
