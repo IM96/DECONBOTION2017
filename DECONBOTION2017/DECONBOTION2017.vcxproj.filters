@@ -73,6 +73,15 @@
     <ClCompile Include="GeneratedFiles\Release\moc_imgproc.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="saver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_saver.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_saver.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="DECONBOTION2017.h">
@@ -88,6 +97,9 @@
       <Filter>Header Files</Filter>
     </CustomBuild>
     <CustomBuild Include="kontrolkapal.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="saver.h">
       <Filter>Header Files</Filter>
     </CustomBuild>
   </ItemGroup>

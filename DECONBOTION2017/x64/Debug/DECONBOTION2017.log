@@ -1,2 +1,6 @@
-﻿  DECONBOTION2017.cpp
-  DECONBOTION2017.vcxproj -> C:\Programming\DECONBOTION2017\x64\Debug\DECONBOTION2017.exe
+﻿  Uic'ing DECONBOTION2017.ui...
+  DECONBOTION2017.cpp
+  moc_DECONBOTION2017.cpp
+  main.cpp
+  Generating Code...
+  DECONBOTION2017.vcxproj -> C:\Programming\Decon2017\x64\Debug\DECONBOTION2017.exe
